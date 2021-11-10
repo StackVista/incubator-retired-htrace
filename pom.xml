@@ -21,7 +21,7 @@ language governing permissions and limitations under the License. -->
 
   <groupId>org.apache.htrace</groupId>
   <artifactId>htrace</artifactId>
-  <version>4.1.0-incubating</version>
+  <version>4.1.1-sts</version>
   <packaging>pom</packaging>
   <name>Apache HTrace</name>
   <description>A distributed tracing framework.</description>
@@ -315,12 +315,12 @@ language governing permissions and limitations under the License. -->
       <dependency>
         <groupId>com.fasterxml.jackson.core</groupId>
         <artifactId>jackson-core</artifactId>
-        <version>2.4.0</version>
+        <version>2.10.5</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.core</groupId>
         <artifactId>jackson-databind</artifactId>
-        <version>2.4.0</version>
+        <version>2.10.5.1</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
