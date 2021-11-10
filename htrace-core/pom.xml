@@ -18,7 +18,7 @@ language governing permissions and limitations under the License. -->
   <parent>
     <artifactId>htrace</artifactId>
     <groupId>org.apache.htrace</groupId>
-    <version>3.1.1-incubating-SNAPSHOT</version>
+    <version>3.1.1-sts</version>
     <relativePath>..</relativePath>
   </parent>
 
@@ -77,7 +77,7 @@ language governing permissions and limitations under the License. -->
         <artifactId>maven-antrun-plugin</artifactId>
         <executions>
           <execution>
-            <phase>compile</phase>
+            <phase>none</phase>
             <id>go_compile</id>
             <goals><goal>run</goal></goals>
             <configuration>
@@ -91,7 +91,7 @@ language governing permissions and limitations under the License. -->
             </configuration>
           </execution>
           <execution>
-            <phase>test</phase>
+            <phase>none</phase>
             <id>go_test</id>
             <goals><goal>run</goal></goals>
             <configuration>
@@ -105,7 +105,7 @@ language governing permissions and limitations under the License. -->
             </configuration>
           </execution>
           <execution>
-            <phase>clean</phase>
+            <phase>none</phase>
             <id>go_clean</id>
             <goals><goal>run</goal></goals>
             <configuration>
@@ -153,12 +153,12 @@ language governing permissions and limitations under the License. -->
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-core</artifactId>
-      <version>2.4.0</version>
+      <version>2.10.5</version>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-databind</artifactId>
-      <version>2.4.0</version>
+      <version>2.10.5.1</version>
     </dependency>
   </dependencies>
 </project>
